@@ -1,0 +1,16 @@
+.statistics__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.statistics__item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border: 5px solid blueviolet;
+  border-radius: 20px;
+  box-shadow: blueviolet 0px 10px 25px;
+}

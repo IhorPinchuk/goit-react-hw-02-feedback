@@ -1,0 +1,24 @@
+.feedback__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.feedback__btn {
+  height: 80px;
+  width: 200px;
+  font-size: 30px;
+  border: 2px solid rgba(70, 69, 69, 0.35);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;
+  cursor: pointer;
+}
+
+.feedback__btn:hover,
+.feedback__btn:focus {
+  color: blueviolet;
+  border: 2px solid blueviolet;
+  box-shadow: blueviolet 0px 10px 25px;
+}
