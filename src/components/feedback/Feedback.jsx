@@ -9,6 +9,7 @@ export default class Feedback extends Component {
     good: 0,
     neutral: 0,
     bad: 0,
+    btns: ['Good', 'Neutral', 'Bad'],
   };
 
   handleFeadbackIncrement = e => {
@@ -43,7 +44,7 @@ export default class Feedback extends Component {
       <>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            options={['Good', 'Neutral', 'Bad']}
+            options={this.state.btns}
             onLeaveFeedback={this.handleFeadbackIncrement}
           />
         </Section>
